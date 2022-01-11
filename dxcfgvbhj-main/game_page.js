@@ -41,7 +41,8 @@ function send() {
     document.getElementById("output").innerHTML = row;
 document.getElementById("word").value = "";
 }
-
+question_turn = "player1";
+answer_turn = "player2";
 function check()
 {
     get_answer = document.getElementById("input_check_box").value;
